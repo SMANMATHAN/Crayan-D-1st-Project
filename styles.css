@@ -78,6 +78,21 @@ nav a:hover {
     justify-content: space-between;
     gap: 40px;
 }
+.decorations {
+    position: relative;
+    display: inline-block;
+}
+
+.curve {
+    position: absolute;
+    margin-top: -35px;
+}
+
+.small-curves {
+    position: absolute;
+    left:-20px;
+}
+
 
 .text-section {
     flex: 1;
@@ -93,6 +108,11 @@ nav a:hover {
 
 .highlight {
     color: #4461F2;
+}
+.curve {
+    position: absolute;
+    top:170px;
+    left:250px;
 }
 
 .text-section p {
@@ -134,7 +154,7 @@ nav a:hover {
 
 .image-section {
     flex: 1;
-    max-width: 500px;
+    max-width: 400px;
     position: relative;
 }
 
@@ -145,8 +165,8 @@ nav a:hover {
 
 .reviews {
     position: absolute;
-    bottom: 40px;
-    left: -20px;
+    bottom: 20px;
+    left: -100px;
     background: white;
     padding: 12px 20px;
     border-radius: 8px;
@@ -164,6 +184,7 @@ nav a:hover {
     font-weight: 600;
     color: #333;
 }
+
 
 .video-section {
     padding: 60px 0;
@@ -193,9 +214,11 @@ nav a:hover {
 .video-caption {
     background: #0A0E24;
     padding: 16px;
+    height: 45px;
 }
 
 .video-caption h3 {
+    text-align: center;
     color: white;
     font-size: 16px;
     margin: 0;
